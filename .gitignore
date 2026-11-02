@@ -1,0 +1,26 @@
+# --- private maintainer material: NEVER commit ---
+private/
+*.local.md
+.env
+.env.*
+!.env.example
+# --- build / env ---
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+node_modules/
+# --- local app data ---
+hearthforge-home/
+*.db
+*.db-wal
+*.db-shm
+audit.jsonl
+settings.json
+.DS_Store
+node_modules/
