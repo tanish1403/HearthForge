@@ -1,0 +1,11 @@
+ImportError while loading conftest 'D:\projects\hearthforge\tests\conftest.py'.
+tests\conftest.py:8: in <module>
+    from hearthforge.app import App
+src\hearthforge\app.py:9: in <module>
+    from .agent import TaskManager
+src\hearthforge\agent.py:18: in <module>
+    from .tools import Registry, Services, TaskState, ToolContext
+E     File "D:\projects\hearthforge\src\hearthforge\tools.py", line 79
+E       from __future__ import annotations
+E       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E   SyntaxError: from __future__ imports must occur at the beginning of the file
